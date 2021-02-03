@@ -1,0 +1,86 @@
+
+:root { 
+    --primary-text-color: #757575;
+    --title-text-color: 
+    --accent-color:
+    --primary-bg-color: 
+
+}
+
+
+
+.page {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+
+ /*utility class for normalize*/ 
+
+.list {
+  list-style: none;
+  
+  /* text colors: #212121, #757575; logo, two colors?  #2196F3; */
+/* accent color: link focus background #2196F3; text white #FFFFFF; no focus - 
+  color: #212121; background: #F5F4FA; text - #212121 */
+/* background color # E5E5E5, secondary background color #F5F4FA */
+
+
+
+
+.logo {
+    color: #2196f3;
+}
+
+.logo:hover{
+    color:
+}
+.logo:focus {
+}
+
+
+/* site-nav*/
+
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+
+/* Hero */
+
+.hero-title {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+/* Section */
+
+.fetures .title {
+  color: #212121;
+}
+
+.button {
+    color: var(--title-text-color)
+    background-color: var(--)
+
+    font-size:
+    padding:
+    display:
+    border:
+}
+
+.button.primary{
+
+}
+
+.button.secondary{
+
+}
