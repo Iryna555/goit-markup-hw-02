@@ -1,0 +1,36 @@
+/* Portfolio page styles sheet */
+
+.main {
+  font-family: Roboto, sans-serif;
+}
+
+.main .filter {
+  color: var(--title-color);
+  background-color: var(--secodary-bg-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filter:hover,
+.filter:focus {
+  color: var(--accent-color);
+  background-color: var(--accent-color);
+}
+
+.examples .title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+}
+.examples .describtion {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.03em;
+}
