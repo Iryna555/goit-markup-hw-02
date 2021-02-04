@@ -1,9 +1,10 @@
 
 :root { 
-    --primary-text-color: #757575;
-    --title-text-color: 
-    --accent-color:
-    --primary-bg-color: 
+    --text-color: #757575;
+    --title-color: #212121;
+    --secondary-text-color: #ffffff;
+    --primary-bg-color: #ffffff;
+    --hover-focus-color:#2196F3;
 
 }
 
@@ -15,10 +16,11 @@
 }
 
 
- /*utility class for normalize*/ 
+ /*utility class, can be used for link*/ 
 
 .list {
   list-style: none;
+}
   
   /* text colors: #212121, #757575; logo, two colors?  #2196F3; */
 /* accent color: link focus background #2196F3; text white #FFFFFF; no focus - 
@@ -77,10 +79,11 @@
     border:
 }
 
-.button.primary{
+
+.button .secondary {
 
 }
 
-.button.secondary{
+.button .secondary {
 
 }
