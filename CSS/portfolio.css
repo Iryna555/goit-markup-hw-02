@@ -4,9 +4,9 @@
   font-family: Roboto, sans-serif;
 }
 
-.main .filter {
+.filter .button {
   color: var(--title-color);
-  background-color: var(--secodary-bg-color);
+  background-color: var(--secondary-bg-color);
 
   font-weight: 500;
   font-size: 16px;
@@ -15,9 +15,9 @@
   letter-spacing: 0.03em;
 }
 
-.filter:hover,
-.filter:focus {
-  color: var(--accent-color);
+.filter .button:hover,
+.filter .button:focus {
+  color: var(--secondary-text-color);
   background-color: var(--accent-color);
 }
 

@@ -31,6 +31,16 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19em;
+  text-decoration: none;
+}
+
+.accent {
+  color: ;
+  font-family: Oleo Script, sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.38em;
+  letter-spacing: 0.03;
 }
 
 /* .logo:hover {
@@ -48,6 +58,7 @@ color: }
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -123,4 +134,5 @@ color: }
 
 /* footer */
 .contacts .list {
+  text-decoration: none;
 }
