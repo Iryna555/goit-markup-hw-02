@@ -34,9 +34,10 @@
   text-decoration: none;
 }
 
-.accent {
-  color: ;
-  font-family: Oleo Script, sans-serif;
+/*  
+.logo .accent {
+  color: var(--secondary-text-color);
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 26px;
   line-height: 1.38em;
