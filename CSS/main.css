@@ -153,6 +153,7 @@
 }
 .footer .address {
   color: var(--secondary-text-color);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71em;
   letter-spacing: 0.03em;
