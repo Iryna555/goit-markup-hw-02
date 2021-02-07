@@ -4,7 +4,7 @@
   font-family: Roboto, sans-serif;
 }
 
-.filter .button {
+.filter .f-button {
   color: var(--title-color);
   background-color: var(--secondary-bg-color);
 
@@ -15,8 +15,8 @@
   letter-spacing: 0.03em;
 }
 
-.filter .button:hover,
-.filter .button:focus {
+.filter .f-button:hover,
+.filter .f-button:focus {
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
 }

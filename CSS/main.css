@@ -66,26 +66,22 @@
 }
 
 .header .contacts .link {
-  color: var(--accent-color);
+  color: var(--title-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.02em;
 }
 
-.contacts .telephone {
-  color: var(--text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14em;
-  letter-spacing: 0.02em;
+.header .mail:hover {
+  color: var(--accent-color);
 }
 
 /* Hero */
 
 .hero .title {
-  background-color: #2f303a;
   color: #ffffff;
+  background-color: #2f303a;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36em;
@@ -168,4 +164,8 @@
   font-size: 14px;
   line-height: 1.71em;
   letter-spacing: 0.03em;
+}
+
+.footer .mail:hover {
+  color: var(--accent-color);
 }
