@@ -73,7 +73,7 @@
   letter-spacing: 0.02em;
 }
 
-.header .mail:hover {
+.header .contacts .link:hover {
   color: var(--accent-color);
 }
 
@@ -166,10 +166,10 @@
   letter-spacing: 0.03em;
 }
 
-.footer .mail:hover {
+.footer .link:hover {
   color: var(--accent-color);
 }
 
-.footer .mail:focus {
+.footer .link:focus {
   color: var(--accent-color);
 }
