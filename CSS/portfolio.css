@@ -15,10 +15,26 @@
   overflow: hidden;
 }
 
+.header {
+  border-bottom: 1px solid #ECECEC;
 
-.filter .f-button {
+}
+
+.filter-list{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.filter-item:not(:last-child) {
+margin-right: 8px;
+}
+
+.f-button {
   color: var(--title-color);
   background-color: var(--secondary-bg-color);
+  padding: 6px 22px;
+  border: none;
 
   font-weight: 500;
   font-size: 16px;
@@ -46,4 +62,23 @@
   font-size: 16px;
   line-height: 1.87em;
   letter-spacing: 0.03em;
+}
+
+.gallery-item {
+  width: 370px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.examples {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.gallery-text {
+  padding: 20px 24px;
+  border: 1px solid #EEEEEE;
+  border-top: none;
 }
